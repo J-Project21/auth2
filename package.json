@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "deploy:git":"ng build --base-href='https://j-project.github.io/auth2/' && ngh"
   },
   "private": true,
   "dependencies": {
